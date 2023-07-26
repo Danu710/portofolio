@@ -13,6 +13,24 @@ const AdditionalProject = () => {
           data-aos-offset="100"
           className="col-span-12 md:col-span-4">
           <Card
+            title="StockTracker"
+            description="Final Project at Fullstack Web Development Rakamin Academy, create a goods management warehouse, to facilitate the entry and exit of goods and the purchase of goods"
+            tags={[
+              "Fullstack",
+              "NextJS",
+              "CHAKRA UI",
+              "ExpressJS",
+              "NodeJS",
+              "POSTGRE SQL",
+            ]}
+            github="https://github.com/ramadhanukadir/final-project-kelompok-3-rakamin"
+          />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-offset="100"
+          className="col-span-12 md:col-span-4">
+          <Card
             title="DALL-E"
             description="Clone DALL-E DALL-E web is an AI (Artificial Intelligence) program created by OpenAI in early 2021."
             tags={["Fullstack", "MongoDB", "ExpressJS", "NodeJS", "ReactJS"]}

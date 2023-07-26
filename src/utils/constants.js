@@ -1,17 +1,3 @@
-// import MusicNoteIcon from "@mui/icons-material/MusicNote";
-// import HomeIcon from "@mui/icons-material/Home";
-// import CodeIcon from "@mui/icons-material/Code";
-// import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
-// import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-// import LiveTvIcon from "@mui/icons-material/LiveTv";
-// import SchoolIcon from "@mui/icons-material/School";
-// import FaceRetouchingNaturalIcon from "@mui/icons-material/FaceRetouchingNatural";
-// import CheckroomIcon from "@mui/icons-material/Checkroom";
-// import GraphicEqIcon from "@mui/icons-material/GraphicEq";
-// import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
-// import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
-// import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
-
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const MENU = {
@@ -32,38 +18,32 @@ export const Menu = [
 
 export const LIST_MENU = [Menu.ABOUT, Menu.EXPERIENCE, Menu.WORK, Menu.CONTACT];
 
-// const Languages = [
-//   {JAVASCRIPT: "Javascript (ES6)"},
-//   {REACT: "React"},
-//   {TYPESCRIPT: "Typescript"},
-//   {NEXTJS: "Nextjs"},
-//   {NODEJS: "Nodejs"},
-//   {STYLED_COMPONENT: "Styled-components"},
-//   {REACT_HOOK_FORM: "React hook form"},
-//   {LARAVEL: "Laravel"},
-//   {GIT: "Git"},
-// ];
-
 export const Skills = [
   { languages: "HTML" },
   { languages: "CSS" },
   { languages: "Javascript (ES6)" },
   { languages: "React Js" },
-  { languages: "React Hooks" },
-  { languages: "React Hook Form" },
-  { languages: "Node Js" },
-  { languages: "Mongo DB" },
-  { languages: "Tailwind" },
-  { languages: "Styled Component" },
+  { languages: "Next Js" },
+  { languages: "Chakra UI" },
   { languages: "Material UI" },
+  { languages: "Tailwind" },
+  { languages: "Node Js" },
+  { languages: "Express Js" },
+  { languages: "Postgre SQL" },
+  { languages: "Mysql" },
   { languages: "GIT" },
 ];
 
 export const COMPANY = {
-  GREDU: "Ganesa satria",
+  GREDU: "BTPN Syariah",
+};
+export const COMPANY1 = {
+  GREDU: "Ganesa Satria",
 };
 
 export const EXPERIENCE = [COMPANY.GREDU];
+
+export const EXPERIENCE1 = [COMPANY1.GANESA];
 
 export const SOCIAL_MEDIA = {
   GITHUB: "https://github.com/Danu710",
